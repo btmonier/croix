@@ -47,6 +47,45 @@ names(croix::croix_palettes)
 #> [41] "arrow_video"
 ```
 
+You can get a vector of hex color codes, simply use the following:
+
+``` r
+crPal <- croix::croix_palette(name = "mad_max_fury_road")
+crPal
+#>  [1] "#0D646B" "#16383A" "#414640" "#B88F73" "#FFD2B5" "#ED8F49" "#E27812"
+#>  [8] "#5C2A09" "#2E1612" "#0F1217"
+```
+
+To visualize the color scheme, use:
+
+``` r
+crPal <- croix::croix_palette(name = "mad_max_fury_road")
+plot(crPal)
+```
+
+![](man/figures/README-croix_plot_01-1.png)
+
+To get a continuous gradient of a scheme, use:
+
+``` r
+    crPal <- croix::croix_palette(
+        name = "pamplemousse", 
+        n = 50, 
+        type = "continuous"
+    )
+    plot(crPal)
+```
+
+![](man/figures/README-croix_plot_02-1.png)
+
+To see all of the schemes at once, use:
+
+``` r
+croix::croix_all()
+```
+
+![](man/figures/README-croix_plot_03-1.png)
+
 ------------------------------------------------------------------------
 
 *Last updated:* 2019-01-26

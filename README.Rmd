@@ -37,6 +37,36 @@ parameter:
 names(croix::croix_palettes)
 ```
 
+You can get a vector of hex color codes, simply use the following:
+
+```{r}
+crPal <- croix::croix_palette(name = "mad_max_fury_road")
+crPal
+```
+
+To visualize the color scheme, use:
+
+```{r croix_plot_01}
+crPal <- croix::croix_palette(name = "mad_max_fury_road")
+plot(crPal)
+```
+
+To get a continuous gradient of a scheme, use:
+
+```{r croix_plot_02}
+    crPal <- croix::croix_palette(
+        name = "pamplemousse", 
+        n = 50, 
+        type = "continuous"
+    )
+    plot(crPal)
+```
+
+To see all of the schemes at once, use:
+
+```{r croix_plot_03, fig.height=10}
+croix::croix_all()
+```
 
 - - -
 *Last updated:* `r format(Sys.Date())`

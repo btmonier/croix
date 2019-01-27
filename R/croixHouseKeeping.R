@@ -1,4 +1,9 @@
-## Palettes
+#' @title Complete list of croix palettes
+#'
+#' @description Use \code{\link{croix_palette}} to construct palettes of
+#'    desired length.
+#'
+#' @export
 croix_palettes <- list(
     pure = c(
         "#B5E0EC", "#98C6D5", "#5DC5DC", "#43A2BA",
@@ -159,10 +164,13 @@ croix_palettes <- list(
     the_matrix = c(
         "#060407", "#0B1013", "#841211", "#1E2E2D", "#344745",
         "#60807B", "#7D9A88", "#9DBEB3", "#C1D6C7", "#DCEEF2"
+    ),
+    arrow_video = c(
+        "#D8D435", "#01A8AE", "#30A355", "#B95996", "#E75234"
     )
 )
 
-## Format syntax of palette ID when plotting
+## Format syntax of palette ID when plotting - not exported
 syntax <- function(x) {
     if (grepl("_", x)) {
         x <- gsub("_", " ", x)

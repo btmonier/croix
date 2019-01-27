@@ -1,18 +1,20 @@
 Package: croix
-Title: Random color palettes for R plots.
+Title: Random color palettes for R plots
 Version: 0.0.1
 Authors@R: person(
     give = "Brandon",
     famil = "Monier",
     email = "brandon.monier@gmail.com",
-    role = c("aut", "cre"
-    ))
+    role = c("aut", "cre"))
 Description: This package serves as a color palette generator for color schemes
     to be used in plotting data. The original set of colors schemes for this
     package was based on the colors found on LaCroix cans. Later, color schemes
     from other popular media were also used (e.g. other beverages, movies, etc.
     ). I hope you find the colors pleasing to the eye. Thanks!
-Depends: R (>= 3.1.0)
+Depends: 
+    R (>= 3.0),
+    grDevices,
+    graphics
 License: GPL-3 | file LICENSE
 LazyData: true
 RoxygenNote: 6.1.1

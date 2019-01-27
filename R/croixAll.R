@@ -10,7 +10,7 @@
 croix_all <- function(...) {
     names <- names(croix_palettes)
     max_len <- max(lengths(croix_palettes))
-    graphics::par(mar = c(0.5, 12, 2, 1), pty = "s")
+    graphics::par(mar = c(0.5, 12, 2, 1))
 
     graphics::plot(
         x = c(0, max_len),

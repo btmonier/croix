@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-"
+)
+```
+
+# croix <img src="man/figures/croix_logo.svg" align="right" height="120"/>
+
+## Overview
+This R package serves as a color palette generator for color schemes
+to be used in plotting data. The original set of colors schemes for this
+package was based on the colors found on LaCroix cans. Later, color schemes
+from other popular media were also used (e.g. other beverages, movies, etc.
+). I hope you find the colors pleasing to the eye. Thanks!
+
+
+## Installation
+The current way to install this package is only through GitHub:
+
+```{r, eval=FALSE}
+if (!require("devtools")) install.packages("devtools")
+devtools::install_github("btmonier/croix")
+```
+
+
+## Usage
+To get a list of palettes available through this package, use the following
+parameter:
+
+```{r}
+names(croix::croix_palettes)
+```
+
+
+- - -
+*Last updated:* `r format(Sys.Date())`

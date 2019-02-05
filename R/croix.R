@@ -20,19 +20,19 @@
 #'
 #' @examples
 #' # Return vector
-#' crPal <- croix_palette("pure")
+#' crPal <- croix_palette("croix_pure")
 #' crPal
 #'
 #' # Visualize palette
-#' crPal <- croix_palette("the_shining")
+#' crPal <- croix_palette("mov_the_shining")
 #' plot(crPal)
 #'
 #' # Get summary statistics of palette
-#' crPal <- croix_palette("akira")
+#' crPal <- croix_palette("mov_akira")
 #' summary(crPal)
 #'
 #' # Get a gradient of palette
-#' crPal <- croix_palette("coconut", n = 50, type = "continuous")
+#' crPal <- croix_palette("croix_coconut", n = 50, type = "continuous")
 #' plot(crPal)
 #'
 #' @export

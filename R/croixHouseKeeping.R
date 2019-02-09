@@ -207,7 +207,7 @@ croix_palettes <- list(
     mov_thelma_and_louise = c(
         "#333436", "#B57A9E", "#7C585A", "#9894BA", "#68151D",
         "#472C17", "#6D695E", "#CA927B", "#8898B1", "#5E7856"
-    ),
+    )
 )
 
 ## Format syntax of palette ID when plotting - not exported

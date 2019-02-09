@@ -12,6 +12,9 @@ knitr::opts_chunk$set(
 
 # croix <img src="man/figures/croix_logo.svg" align="right" height="120"/>
 
+[![Build Status](https://travis-ci.org/btmonier/croix.svg?branch=master)](https://travis-ci.org/btmonier/croix)
+[![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
 ## Overview
 This R package serves as a color palette generator for color schemes
 to be used in plotting data. The original set of colors schemes for this
@@ -40,14 +43,14 @@ names(croix::croix_palettes)
 You can get a vector of hex color codes, simply use the following:
 
 ```{r}
-crPal <- croix::croix_palette(name = "mad_max_fury_road")
+crPal <- croix::croix_palette(name = "mov_mad_max_fury_road")
 crPal
 ```
 
 To visualize the color scheme, use:
 
 ```{r croix_plot_01}
-crPal <- croix::croix_palette(name = "mad_max_fury_road")
+crPal <- croix::croix_palette(name = "mov_mad_max_fury_road")
 plot(crPal)
 ```
 
@@ -55,7 +58,7 @@ To get a continuous gradient of a scheme, use:
 
 ```{r croix_plot_02}
     crPal <- croix::croix_palette(
-        name = "pamplemousse", 
+        name = "croix_pamplemousse", 
         n = 50, 
         type = "continuous"
     )

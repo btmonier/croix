@@ -37,7 +37,7 @@ To get a list of palettes available through this package, use the following
 parameter:
 
 ```{r}
-names(croix::croix_palettes)
+names(croix::croix_pal_data)
 ```
 
 You can get a vector of hex color codes, simply use the following:
@@ -67,7 +67,7 @@ To get a continuous gradient of a scheme, use:
 
 To see all of the schemes at once, use:
 
-```{r croix_plot_03, fig.height=10}
+```{r croix_plot_03, fig.height=17}
 croix::croix_all()
 ```
 

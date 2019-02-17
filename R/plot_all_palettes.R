@@ -8,8 +8,8 @@
 #'
 #' @export
 croix_all <- function(...) {
-    names <- names(croix_palettes)
-    max_len <- max(lengths(croix_palettes))
+    names <- names(croix_pal_data)
+    max_len <- max(lengths(croix_pal_data))
     graphics::par(mar = c(0.5, 12, 2, 1))
 
     graphics::plot(

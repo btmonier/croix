@@ -4,7 +4,7 @@
 \name{croix_pal_data}
 \alias{croix_pal_data}
 \title{Complete list of croix palettes}
-\format{An object of class \code{list} of length 80.}
+\format{An object of class \code{list} of length 81.}
 \usage{
 croix_pal_data
 }

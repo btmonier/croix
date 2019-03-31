@@ -14,3 +14,10 @@ syntax <- function(x) {
     )
     return(x)
 }
+
+
+## Simple fuzzy finding function for searching palettes
+fuzzy_croix <- function(x, md = 0.2) {
+    croix_names <- names(croix_pal_data)
+    croix_names[agrep(pattern = x, x = croix_names, max.distance = md)][1]
+}

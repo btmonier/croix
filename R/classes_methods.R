@@ -39,6 +39,7 @@
 croix_palette <- function(name, n = NULL, type = c("discrete", "continuous")) {
     type <- match.arg(type)
 
+    name <- fuzzy_croix(x = name)
     pal <- croix_pal_data[[name]]
     if (is.null(pal)) {
         stop("This palette could not be found.")

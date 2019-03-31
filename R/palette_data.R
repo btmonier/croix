@@ -61,6 +61,9 @@ croix_pal_data <- list(
         "#ECA024", "#F3B854", "#D5701F", "#101D5D",
         "#4F4A61", "#978955", "#D0C9C3", "#28ACA0"
     ),
+    misc_medicine_wheel = c(
+        "#FFFFFF", "#FFF000", "#FF0000", "#000000"
+    ),
     mov_a_clockwork_orange = c(
         "#D8C406", "#C28204", "#F95F33", "#DF2318", "#45161C",
         "#1D131B", "#23284E", "#2557D0", "#233C26", "#1A1C17"

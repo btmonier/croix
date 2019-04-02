@@ -5,6 +5,187 @@
 #'
 #' @export
 croix_pal_data <- list(
+    brand_aldi = c(
+        "#001F78", "#00B5DB", "#F03D14", "#FA6E0A", "#FFBF45",
+        "#FFFFFF"
+    ),
+    brand_a_and_w = c(
+        "#4F2400", "#D28816", "#F15D22", "#FFFFFF"
+    ),
+    brand_barqs_root_beer = c(
+        "#95A5AF", "#179547", "#C02A36", "#000000", "#FFFFFF"
+    ),
+    brand_burger_king = c(
+        "#EE1D23", "#185494", "#FAAF18", "#FFFFFF"
+    ),
+    brand_chipotle = c(
+        "#A81612", "#451400", "#FFFFFF"
+    ),
+    brand_coca_cola = c(
+        "#F40000", "#000000", "#FFFFFF"
+    ),
+    brand_dairy_queen = c(
+        "#EE3E42", "#007AC1", "#F9AA53", "#FFFFFF"
+    ),
+    brand_del_taco = c(
+        "#ED1C2E", "#B2BB1E", "#F8971D", "#FFD200", "#FFFFFF"
+    ),
+    brand_dominos = c(
+        "#E31837", "#006491", "#FFFFFF"
+    ),
+    brand_dr_pepper = c(
+        "#D51143", "#711F25", "#000000", "#FFFFFF"
+    ),
+    brand_dunkin_donuts = c(
+        "#E11383", "#F5821F", "#683817", "#FFFFFF"
+    ),
+    brand_ebay = c(
+        "#E53238", "#0064D2", "#F5AF02", "#86B817"
+    ),
+    brand_fanta = c(
+        "#FF8300", "#11246F", "#369638", "#21662F", "#FFFFFF"
+    ),
+    brand_ferrari = c(
+        "#FFF200", "#000000", "#008C45", "#FFFFFF", "#CD212A"
+    ),
+    brand_gatorade = c(
+        "#E51A23", "#F47A37", "#00693F", "#000000", "#FFFFFF"
+    ),
+    brand_google = c(
+        "#4285F4", "#DB4437", "#F4B400", "#0F9D58"
+    ),
+    brand_gopro = c(
+        "#075DAA", "#109DD9", "#E8E8EA", "#000000"
+    ),
+    brand_hardees = c(
+        "#F10C26", "#FEC830", "#000000"
+    ),
+    brand_hyvee = c(
+        "#E2231A", "#FFFFFF"
+    ),
+    brand_instagram = c(
+        "#405dE6", "#5851DB", "#833AB4", "#C13584", "#E1306C",
+        "#FD1D1D", "#F56040", "#F77737", "#FCAF45", "#FFDC80"
+    ),
+    brand_john_deere = c(
+        "#367C2B", "#FFDE00", "#27251F"
+    ),
+    brand_kfc = c(
+        "#A3080C", "#F5D4B7", "#FFF1E2", "#000000", "#FFFFFF"
+    ),
+    brand_lacoste = c(
+        "#004526", "#DB0026", "#000000", "#FFFFFF"
+    ),
+    brand_lego = c(
+        "#E3000B", "#FFED00", "#000000", "#FFFFFF"
+    ),
+    brand_mcdonalds = c(
+        "#FFC72C", "#DA291C", "#FFFFFF"
+    ),
+    brand_microsoft = c(
+        "#F25022", "#7FBA00", "#00A4EF", "#FFB900", "#737373"
+    ),
+    brand_mountain_dew = c(
+        "#ED1A37", "#07703C", "#94C93D", "#000000", "#FFFFFF"
+    ),
+    brand_mug_root_beer = c(
+        "#5A341F", "#DA2127", "#F3BD37", "#FFFFFF"
+    ),
+    brand_nuvera_communications = c(
+        "#DA1A32", "#15BEF0", "#D3DF4E", "#000000"
+    ),
+    brand_papa_murphys = c(
+        "#D40026", "#00663E", "#E2B11F", "#FFFFFF"
+    ),
+    brand_paypal = c(
+        "#00457C", "#0079C1", "#000000", "#FFFFFF"
+    ),
+    brand_pepsi = c(
+        "#EB1933", "#2151A1", "#FFFFFF"
+    ),
+    brand_periscope = c(
+        "#40A4C4", "#E94F3C", "#FFFFFF"
+    ),
+    brand_pokemon = c(
+        "#FFCB05", "#3D7DCA", "#003A70"
+    ),
+    brand_popeyes = c(
+        "#C41230", "#F58427", "#FFFFFF"
+    ),
+    brand_powerade = c(
+        "#10C7DD", "#000000", "#FFFFFF"
+    ),
+    brand_qdoba = c(
+        "#F99D1C", "#000000", "#FFFFFF"
+    ),
+    brand_rc_cola = c(
+        "#00539A", "#ED3224", "#A6A8AB", "#FFFFFF"
+    ),
+    brand_red_bull = c(
+        "#CC1E4A", "#004C6C", "#FFC906", "#223971", "#F4801F",
+        "#464646", "#008CD1", "#202A2F", "#D4D6D8", "#121F45",
+        "#CB2026", "#F4F5F5", "#171717"
+    ),
+    brand_reddit = c(
+        "#FF4500", "#000000", "#FFFFFF"
+    ),
+    brand_sams_club = c(
+        "#004B8D", "#5D9732", "#0069AA", "#0081C6", "#FFFFFF"
+    ),
+    brand_sierra_mist = c(
+        "#2CA544", "#89C444", "#FFDE05", "#FFFFFF"
+    ),
+    brand_slack = c(
+        "#36C5F0", "#ECB22E", "#2EB67D", "#E01E5A", "#4A154B",
+        "#000000"
+    ),
+    brand_sonic_drive_in = c(
+        "#EF3B44", "#0A68B0", "#FCDD2A", "#97A8D3"
+    ),
+    brand_spotify = c(
+        "#1DB954", "#FFFFFF", "#000000"
+    ),
+    brand_sprite = c(
+        "#1E5CB3", "#FFF100", "#00A65F", "#FFFFFF"
+    ),
+    brand_sun_drop = c(
+        "#D71921", "#FFF219", "#22B24C", "#FFFFFF"
+    ),
+    brand_sunkist = c(
+        "#0E2b89", "#FE7D1A", "#018240", "#FF9E0D", "#FFFFFF"
+    ),
+    brand_surge = c(
+        "#ED1C24", "#B2D234", "#000000"
+    ),
+    brand_t_mobile = c(
+        "#ED008C", "#999B9E", "#FFFFFF"
+    ),
+    brand_taco_bell = c(
+        "#682A8D", "#A07EBA", "#000000", "#FFFFFF"
+    ),
+    brand_tinder = c(
+        "#FE3C72", "#424242", "#FFFFFF"
+    ),
+    brand_toms = c(
+        "#9ADBE8", "#2E2725", "#FFFFFF"
+    ),
+    brand_viber = c(
+        "#665CAC", "#54C0D4", "#EF6062", "#F4EF7B", "#4A4A4A",
+        "#B0B0B0", "#FFFFFF"
+    ),
+    brand_walmart = c(
+        "#0072CE", "#FFB81C", "#FFFFFF"
+    ),
+    brand_wendys = c(
+        "#ED1B24", "#FAF600", "#8ED5E6", "#000000", "#FFFFFF"
+    ),
+    brand_whatsapp = c(
+        "#4AC959", "#455A64", "#FFFFFF"
+    ),
+    brand_white_castle = c(
+        "#011375", "#FBA301", "#FFFFFF"
+    ),
+
     croix_apricot = c(
         "#EC9E0A", "#E4E0E1", "#D06D0F", "#C1BCBF",
         "#151F59", "#7F868E", "#E6A26D", "#20A4A4"
@@ -210,6 +391,10 @@ croix_pal_data <- list(
     mov_napoleon_dynamite = c(
         "#3E0D10", "#94635E", "#58619C", "#C19733", "#3E2123",
         "#9D3303", "#D1CDDC", "#4D3F3F", "#7C434A", "#0F040A"
+    ),
+    mov_nausicaa = c(
+        "#0298CE", "#38B3E0", "#DCE4CF", "#FBE4B8", "#FFE882",
+        "#F8EFE8", "#DBAEA9", "#6E6046", "#576A57", "#002727"
     ),
     mov_nightcrawler = c(
         "#12101D", "#8F9275", "#555F54", "#BC917E", "#366672",

@@ -1,6 +1,6 @@
 Package: croix
 Title: Random color palettes for R plots
-Version: 1.0.3
+Version: 1.0.4
 Authors@R: person(
     give = "Brandon",
     famil = "Monier",

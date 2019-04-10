@@ -4,9 +4,15 @@
 \alias{croix_all}
 \title{Visualize all croix palettes}
 \usage{
-croix_all(...)
+croix_all(palType = c("all", "brand", "croix", "mov"), ...)
 }
 \arguments{
+\item{palType}{Which palette type should be plotted? Choices are
+\code{all} which plots all palette types, \code{brand} which plots
+only brand-type palettes, \code{croix} which plots only croix-type
+palettes, or \code{mov} which plots only movie-based palettes. Defaults
+to \code{all}.}
+
 \item{...}{Additional parameters to pass to inner functions.}
 }
 \description{
